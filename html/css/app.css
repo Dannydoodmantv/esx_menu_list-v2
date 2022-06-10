@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+
+.menu {
+
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+	overflow-y: auto;
+	max-height: 90%;
+
+	border-radius: .5vh
+}
+
+.accept {
+	width: auto;
+	height: 32px;
+	margin-left: 4vh;
+	font-weight: 300;
+	color: rgb(202, 202, 202);
+	border-radius: .5vh;
+	text-transform: uppercase;
+	background: #303c47;
+	outline: 0;
+	border: none;
+	font-weight: 500;
+	transition: all 0.2s ease-in-out;
+	font-size: 1.2vh;
+}
+
+.accept:hover {
+	letter-spacing: 1px;
+	color: white;
+	background: #4a5c6d;
+	border-bottom: 2px solid #ead29f;
+	cursor: pointer;
+	width: auto;
+}
+
+
+
+.menu>table {
+	border-collapse: separate;
+	border-spacing: 0 5px;
+	min-width: 80vh;
+	max-width: 85vh;
+	padding: 1vh ;
+	background: #1f2830;
+	border-bottom: 2px solid #485b6d;
+
+}
+
+.menu>table>thead {
+	background: #303c47;
+	text-align: center;
+	height: 1vh;
+	width: 2%;
+	font-weight: 600;
+	line-height: 20px;
+	margin-bottom: 20px;
+	color: #ead29f;
+	border-radius: .5vh;
+}
+
+.menu td {
+	
+	text-align: center;
+	padding: 8px;
+	margin: 20px;
+	
+}
+
+
+
+.menu tbody tr:nth-child(even) {
+	color: #fafafa;
+	background: #2a3641;
+	font-size: 1.3vh;
+}
+
+.menu tbody tr:nth-child(odd) {
+	color: #fafafa;
+	background: #2a3641;
+	font-size: 1.3vh;
+}
